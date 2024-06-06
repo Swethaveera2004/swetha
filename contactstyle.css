@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lora:ital,wght@0,400..700;1,400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Sedan+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+}
+
+body {
+    background-color: rgb(238, 209, 226);
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'sedan sc';
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h2 {
+
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'sedan sc';
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-family: 'sedan sc';
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+}
+
+.footbck {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'sedan sc';
+    line-height: 28px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.py-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}

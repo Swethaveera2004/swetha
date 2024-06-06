@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lora:ital,wght@0,400..700;1,400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Sedan+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+}
+
+
+
+
+
+.about {
+    background: linear-gradient(#eeaec8, #eeaec8 100%);
+
+}
+
+#about p {
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Merienda';
+}
+
+img {
+    border-top: 20px;
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footbck {
+    background-color: black;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.py-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}

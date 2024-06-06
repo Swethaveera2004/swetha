@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lora:ital,wght@0,400..700;1,400..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Sedan+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+}
+
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merienda {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+.topbg {
+    background-color: #990011;
+}
+
+marquee {
+    font-family: 'Merienda';
+    font-size: 30px;
+    font-weight: 200;
+    color: #fcf6f5 !important;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: black;
+}
+
+.navbar .navbar-brand {
+    font-family: 'sedan sc';
+    font-size: 25px;
+    font-weight: 100;
+    color: #29f700 !important;
+    letter-spacing: 1rem;
+}
+
+#navbarSupportedContent a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid #29f700;
+}
+
+#navbarSupportedContent button {
+    background: #29f700;
+    width: 5rem;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 120px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    color: white;
+}
+
+#home h1 {
+    font-size: 100px;
+    color: white;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    font-family: 'sedan sc';
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+#home p {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'sedan sc';
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#home .input-group {
+    width: 40%;
+    height: 45px;
+}
+
+.signin {
+    background: green !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
+}
+
+/*****About******/
+
+#about {
+    background: linear-gradient(#eeaec8, #eeaec8 100%);
+}
+
+#about h1 {
+
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    font-family: 'Merienda';
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 3px;
+    word-spacing: 1rem;
+}
+
+#about p {
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'sedan sc';
+    line-height: 28px;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+
+/******Products****/
+
+#product {
+    background: #e5e5e5;
+
+
+}
+
+#product h1 {
+
+    font-family: 'sedan sc';
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+#product img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+        inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),
+        inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+.footbck {
+    background-color: black;
+}
+
+a {
+    list-style: none;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.py-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+    unicode-bidi: isolate;
+}
